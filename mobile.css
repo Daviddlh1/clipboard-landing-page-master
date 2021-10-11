@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    /* font-size: 62.5%; */
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+header{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.header-logo{
+    height: 300px;
+    margin-bottom: 10px;
+}
+.header-logo .background{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.header-logo .logo{
+    position: absolute;
+    left: calc(50% - 50px);
+    top: 75px;
+}
+.header-info{
+    padding: 10px;
+}
+.header-info h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+.header-info p{
+    text-align: center;
+    padding: 10px;
+    color: hsl(210, 10%, 33%);
+    font-weight: 400;
+}
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+}
+.buttons-container .ios:hover{
+    cursor: pointer;
+    background-color: rgba(38, 186, 164, 0.5);
+}
+.buttons-container .mac:hover{
+    cursor: pointer;
+    background-color: rgba(96, 115, 255, 0.5);
+}
+.buttons-container button{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 60px;
+    border: none;
+    color: white;
+}
+.buttons-container .ios{
+    background-color: hsl(171, 66%, 44%);
+}
+.buttons-container .mac{
+    background-color: hsl(233, 100%, 69%);
+}
+.first-section .section-title{
+    text-align: center;
+}
+.first-section p{
+    text-align: center;
+    padding: 20px 40px;
+    color: hsl(210, 10%, 33%);
+}
+.img-info-container{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-info-container img{
+    width: 80%;
+    margin: 40px 0;
+}
+.img-info-container article{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.img-info-container .article-title{
+    margin: 0 auto;
+}
+.second-section{
+    text-align: center;
+    padding: 20px;
+}
+.second-section img{
+    margin-top: 50px;
+    width: 80%;
+}
+.third-section{
+    padding: 20px;
+    text-align: center;
+}
+.third-section article{
+    padding: 20px;
+}
+.third-section .list-icon{
+    width: 40px;
+    height: 40px;
+    background-image: url('./images/icon-blacklist.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+.third-section .ai-icon{
+    width: 40px;
+    height: 40px;
+    background-image: url('./images/icon-text.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+.third-section .eye-icon{
+    width: 40px;
+    height: 40px;
+    background-image: url('./images/icon-preview.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+.third-section article h4{
+    padding: 20px;
+}
+.fourth-section{
+    padding: 20px;
+}
+.fourth-section div{
+    padding: 20px;
+    margin: 40px;
+}
+.fourth-section .google-logo{
+    background-image: url('./images/logo-google.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fourth-section .ibm-logo{
+    background-image: url('./images/logo-ibm.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fourth-section .microsoft-logo{
+    background-image: url('./images/logo-microsoft.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fourth-section .hp-logo{
+    background-image: url('./images/logo-hp.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fourth-section .vg-logo{
+    background-image: url('./images/logo-vector-graphics.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fifth-section{
+    padding: 20px;
+    text-align: center;
+}
+.fifth-section p{
+    color: hsl(201, 11%, 66%);
+}
+.fifth-section .buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.fifth-section button{
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 60px;
+    color: white;
+}
+.fifth-section .ios{
+    background-color: hsl(171, 66%, 44%);
+}
+.fifth-section .mac{
+    background-color: hsl(233, 100%, 69%);
+}
+.fifth-section .ios:hover{
+    cursor: pointer;
+    background-color: rgba(38, 186, 164, 0.5);
+}
+.fifth-section .mac:hover{
+    cursor: pointer;
+    background-color: rgba(96, 115, 255, 0.5);
+}
+.footer{
+    background-color: #f2f3f8 ;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer img{
+    width: 40px;
+    align-self: center;
+}
+.footer .footer-links{
+    display: flex;
+    flex-direction: column;
+}
+.footer .footer-links span{
+    margin: 10px;
+    color: hsl(210, 10%, 33%);
+}
+.footer .footer-icons{
+    display: flex;
+    align-self: center;
+}
+.footer .footer-icons div{
+    width: 24px;
+    height: 24px;
+    margin: 20px;
+}
+.footer .footer-icons .facebook{
+    background-image: url('./images/icon-facebook.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer .footer-icons .twitter{
+    background-image: url('./images/icon-twitter.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer .footer-icons .instagram{
+    background-image: url('./images/icon-instagram.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

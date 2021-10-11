@@ -1,0 +1,45 @@
+.header-info{
+    padding: 10px 130px;
+}
+.buttons-container{
+    flex-direction: row;
+    justify-content: center;
+}
+.buttons-container button{
+    width: 30%;
+}
+.img-info-container{
+    flex-direction: row;
+}
+.img-info-container img{
+    width: 50%;
+}
+.third-section .container{
+    display: flex;
+    margin-top: 50px;
+}
+.fourth-section{
+    display: flex;
+}
+.fourth-section div{
+    width: 20%;
+}
+.fifth-section p{
+    padding: 10px 130px;
+}
+.fifth-section .buttons{
+    flex-direction: row;
+    justify-content: center;
+}
+.fifth-section button{
+    width: 30%;
+}
+.footer{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .footer-links{
+    flex-direction: row;
+    justify-content: center;
+}
